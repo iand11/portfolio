@@ -23,7 +23,7 @@
 .hero-font {
   margin:10px;
   /*color:white;*/
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   font-weight: 700;
   font-size: 40px;
   opacity: .6;
@@ -35,6 +35,16 @@
   border-radius: 150px;
   margin:auto;
   margin:5% 40%;
+}
+
+.section-title {
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-size: 40px;
+  width:130px;
+  text-align: center;
+  margin:auto;
+  margin-top:70px;
+  border-bottom: 2px solid ;
 }
 
 
