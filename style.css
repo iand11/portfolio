@@ -20,9 +20,14 @@
   margin: -8px;
 }
 
+.contact {
+  height:30vh;
+  width:100%;
+  margin: -8px;
+}
+
 .hero-font {
   margin:10px;
-  /*color:white;*/
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   font-weight: 700;
   font-size: 40px;
