@@ -88,9 +88,32 @@
   border-radius:5px;
 }
 
+.contacts-container {
+  margin: 60px auto;
+  width:80%;
+  text-align: center;
+}
+
 
 .project-link:hover {
   opacity: 0.9;
 }
 
+.contact-link {
+  height:150px;
+  width:150px;
+  margin:auto;
+  display: inline-block;
+  
+}
+
+.contact-link i {
+  color:black;
+}
+
+.contact-link i:hover {
+  background-color: lightgrey;
+  border-radius:20px;
+  opacity: 0.8;
+}
 
