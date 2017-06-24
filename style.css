@@ -1,5 +1,12 @@
+.dev-icon {
+  font-size: 110px;
+  margin:15px;
+  padding:15px;
+  display:inline-block;
+}
+
 .hero-page {
-  margin: -8px;
+  margin: -8px;                     
   padding:10px;
   height:100vh;
   width:100%;
@@ -9,12 +16,14 @@
   background-size: cover;
 }
 
-.second-part {
+/*39*/
+/*119*/
+
+.skills-section {
   height:70vh;
 }
 
-.third-part {
-  height:50vh;
+.projects-section {
   background-color: #eee;
   width:100%;
   margin: -8px;
@@ -28,7 +37,7 @@
 
 .hero-font {
   margin:10px;
-  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 40px;
   opacity: .6;
@@ -40,16 +49,48 @@
   border-radius: 150px;
   margin:auto;
   margin:5% 40%;
+  opacity: .8;
 }
 
 .section-title {
-  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 40px;
   width:130px;
   text-align: center;
   margin:auto;
   margin-top:70px;
   border-bottom: 2px solid ;
+}
+
+.skills-container {
+  width:80%;
+  margin:70px auto;
+  text-align: center;
+}
+
+.projects-container {
+  width:80%;
+  margin:70px auto;
+  text-align: center;
+  /*border:1px solid;*/
+}
+
+.project {
+  width:450px;
+  display: inline-block;
+  margin:20px;
+}
+
+.project-image {
+  height:250px;
+  width:350px;
+  box-shadow: 3px 3px 3px #888888;
+  border-radius:5px;
+}
+
+
+.project-link:hover {
+  opacity: 0.9;
 }
 
 
