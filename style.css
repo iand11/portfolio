@@ -43,6 +43,24 @@
   opacity: .6;
 }
 
+.hero-font-add-items {
+  display: none;
+  margin:10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  opacity: .6; 
+  /*float:right;*/
+
+}
+
+.lower-left {
+  position:absolute
+  width:400px;
+  height:400px;
+  /*float: right;*/
+}
+
 .ian-pic {
   height:300px;
   width:250px;
