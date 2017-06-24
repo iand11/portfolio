@@ -1,3 +1,8 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+
 .dev-icon {
   font-size: 110px;
   margin:15px;
@@ -19,6 +24,13 @@
 /*39*/
 /*119*/
 
+.about-section {
+  height:60vh;
+  background-color: #eee;
+  width:100%;
+  margin: -70px auto;
+}
+
 .skills-section {
   height:70vh;
 }
@@ -37,7 +49,6 @@
 
 .hero-font {
   margin:10px;
-  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 40px;
   opacity: .6;
@@ -46,7 +57,6 @@
 .hero-font-add-items {
   display: none;
   margin:10px;
-  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 40px;
   opacity: .6; 
@@ -64,20 +74,29 @@
 .ian-pic {
   height:300px;
   width:250px;
-  border-radius: 150px;
-  margin:auto;
-  margin:5% 40%;
-  opacity: .8;
+  border-radius: 10px;
+  margin:2em 5em;
+  box-shadow: 3px 3px 3px #888888;
+}
+
+.about-text {
+  float:right;
+  width:700px;
+  margin:3em 5em;
+}
+
+.about-font {
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
 }
 
 .section-title {
-  font-family: 'Lato', sans-serif;
   font-size: 40px;
   width:130px;
   text-align: center;
   margin:auto;
   margin-top:70px;
-  border-bottom: 2px solid ;
+  border-bottom: 2px solid;
 }
 
 .skills-container {
