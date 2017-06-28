@@ -21,32 +21,6 @@ body{
   background-size: cover;
 }
 
-/*39*/
-/*119*/
-
-.about-section {
-  height:60vh;
-  background-color: #eee;
-  width:100%;
-  margin: -70px auto;
-}
-
-.skills-section {
-  height:70vh;
-}
-
-.projects-section {
-  background-color: #eee;
-  width:100%;
-  margin: -8px;
-}
-
-.contact {
-  height:30vh;
-  width:100%;
-  margin: -8px;
-}
-
 .hero-font {
   margin:10px;
   font-weight: 700;
@@ -60,15 +34,30 @@ body{
   font-weight: 700;
   font-size: 40px;
   opacity: .6; 
-  /*float:right;*/
 
 }
 
-.lower-left {
-  position:absolute
-  width:400px;
-  height:400px;
-  /*float: right;*/
+.section-title {
+  font-size: 40px;
+  width:130px;
+  text-align: center;
+  margin:auto;
+  margin-top:70px;
+  border-bottom: 2px solid;
+}
+
+/*39*/
+/*119*/
+
+
+
+/*ABOUT SECTION*/
+
+.about-section {
+  /*height:60vh;*/
+  background-color: #eee;
+  width:100%;
+  margin: -70px auto;
 }
 
 .ian-pic {
@@ -89,14 +78,13 @@ body{
   font-size: 40px;
   font-family: 'Amatic SC', cursive;
 }
+/*ABOUT SECTION*/
 
-.section-title {
-  font-size: 40px;
-  width:130px;
-  text-align: center;
-  margin:auto;
-  margin-top:70px;
-  border-bottom: 2px solid;
+
+
+/*SKILLS SECTION*/
+
+.skills-section {
 }
 
 .skills-container {
@@ -104,12 +92,22 @@ body{
   margin:70px auto;
   text-align: center;
 }
+/*SKILLS SECTION*/
+
+
+
+/*PROJECTS SECTION*/
+
+.projects-section {
+  background-color: #eee;
+  width:100%;
+  margin: -8px;
+}
 
 .projects-container {
   width:80%;
   margin:70px auto;
   text-align: center;
-  /*border:1px solid;*/
 }
 
 .project {
@@ -123,6 +121,18 @@ body{
   width:350px;
   box-shadow: 3px 3px 3px #888888;
   border-radius:5px;
+}
+/*PROJECTS SECTION*/
+
+
+
+
+/*CONTACT SECTION*/
+
+.contact {
+  height:30vh;
+  width:100%;
+  margin: -8px;
 }
 
 .contacts-container {
@@ -153,4 +163,9 @@ body{
   border-radius:20px;
   opacity: 0.8;
 }
+/*CONTACT SECTION*/
+
+
+
+
 
