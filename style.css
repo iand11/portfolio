@@ -64,19 +64,19 @@ body{
   height:300px;
   width:250px;
   border-radius: 10px;
-  margin:2em 5em;
+  margin:2em 0em 2em 5em;
   box-shadow: 3px 3px 3px #888888;
 }
 
 .about-text {
   float:right;
   width:700px;
-  margin:3em 5em;
+  margin:3em 5em 0em 3em ;
 }
 
 .about-font {
-  font-size: 40px;
-  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  font-family: 'Handlee', cursive;
 }
 /*ABOUT SECTION*/
 
